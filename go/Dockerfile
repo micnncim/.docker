@@ -1,4 +1,4 @@
-FROM golang:latest AS build
+FROM golang:<<GO_VERSION>> AS build
 
 WORKDIR /go/src/app
 COPY . /go/src/app
